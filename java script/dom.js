@@ -1,0 +1,11 @@
+document.title="DOM in java script";
+document.body.style.backgroundColor="lightgreen";
+document.getElementById("header").innerHTML="Hello World!!!";
+document.getElementById("para").style.color="red";
+document.getElementById("para").style.fontSize="38px";
+document.getElementsByTagName("h1")[1].style.color="blue";
+document.getElementsByTagName("h1")[1].style.fontSize="40px";
+document.getElementsByClassName("ds")[0].style.color="red";
+document.getElementsByClassName("ds")[1].style.color="blue";
+document.getElementsByClassName("ds")[0].style.fontSize="25px";
+document.getElementsByClassName("ds")[1].style.fontSize="25px";
